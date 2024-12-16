@@ -1,9 +1,42 @@
 {
-    "name": "React DomoApp",
-    "version": "0.0.1",
-    "size": {
-        "width": 3,
-        "height": 3
-    },
-    "mapping": []
+  "name": "World Map App",
+  "version": "0.0.1",
+  "size": {
+    "width": 3,
+    "height": 3
+  },
+  "mapping": [
+    {
+      "alias": "geoData",
+      "dataSetId": "08a9f9eb-b7c3-4066-abba-47875733b0de",
+      "fields": [
+        {
+          "alias": "id",
+          "columnName": "id"
+        },
+        {
+          "alias": "city",
+          "columnName": "city"
+        },
+        {
+          "alias": "country",
+          "columnName": "country"
+        },
+        {
+          "alias": "lat",
+          "columnName": "lat"
+        },
+        {
+          "alias": "long",
+          "columnName": "lng"
+        },
+        {
+          "alias": "dataPoint",
+          "columnName": "population"
+        }
+      ]
+    }
+  ],
+  "id": "c94683a0-360a-4f06-abc5-11758d78fcbb",
+  "proxyId": "619647ac-9f47-4f42-9332-27e22054bdfb"
 }
