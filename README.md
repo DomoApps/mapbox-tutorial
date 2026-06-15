@@ -1,4 +1,6 @@
 # Mapbox World Map
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDomoApps%2Fmapbox-tutorial.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FDomoApps%2Fmapbox-tutorial?ref=badge_shield)
+
 
 A Domo Custom App that renders a world map with [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides/), powered by a Domo dataset. Points are sized and colored by city population; the underlying dataset is wired through `manifest.json` mapping and served to the app via the dev-server proxy.
 
@@ -65,3 +67,7 @@ See the [tutorial](https://domo.com/docs/portal/Apps/App-Framework/Tutorials/Rea
 | `pnpm generate`  | Scaffold new components / reducers with `da generate` |
 | `pnpm test`      | Run Vitest                                            |
 | `pnpm storybook` | Launch Storybook                                      |
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDomoApps%2Fmapbox-tutorial.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FDomoApps%2Fmapbox-tutorial?ref=badge_large)
